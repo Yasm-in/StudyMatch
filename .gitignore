@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.npm
+
+# Environment files (NEVER commit these)
+.env
+.env.local
+.env.production
+.env.development
+
+# Firebase credentials
+google-services.json
+GoogleService-Info.plist
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
+# Build outputs
+dist/
+build/
+.expo/
+.expo-shared/
+ios/
+android/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Coverage
+coverage/
+*.lcov
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Expo
+web-build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Test
+__snapshots__/
